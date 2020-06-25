@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Paging</title>
+  </head>
+  <body>
+      <form action="">
+          <fieldset>
+        <div class="">
+          <div id="setting">
+            <h1>Page Setting</h1>
+            <input type="text" id="frame" placeholder="Frame" /><br />
+            <input type="text" id="pageList" placeholder="Referenced String" /><br />
+            <input type="text" id="accessTime" placeholder="Access Time" /><br />
+            <input type="text" id="faultTime" placeholder="Fault Time" /><br />
+          </div>
+        </div>
+        <div class="button">
+          <input type="button" value="FCFS" id="btn_FCFS" />
+          <input type="button" value="Count" id ="btn_Cnt">
+          <input type="button" value="Reference" id ="btn_Ref">
+          <input type="button" value="snd Chance" id ="btn_SecondChance">
+          <input type="button" value="Optimal" id ="btn_optimal">
+        </div>
+      </fieldset>
+      </form>
+      <h2 id="explain1"></h2>
+      <h2 id="explain2"></h2>
+      <div id="graph"></div>
+      <div class="chart"></div>
+      <div id="brief"></div>
+      <h2 id="explain3"></h2>
+
+
+      
+
+
+    <script src="secondChance.js"></script>
+    <script src="count.js"></script>
+    <script src="fcfs.js"></script>
+    <script src="ref.js"></script>
+    <script src="optimal.js"></script>
+    <script src="getAll.js"></script>    
+    <body>
+</html>
